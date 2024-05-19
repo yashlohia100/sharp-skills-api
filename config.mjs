@@ -1,0 +1,18 @@
+const config = {
+  PORT: process.env.PORT,
+  NODE_ENV: process.env.NODE_ENV,
+  DATABASE_URI: process.env.DATABASE_URI,
+  LOCAL_DATABASE_URI: process.env.LOCAL_DATABASE_URI,
+  DATABASE_NAME: process.env.DATABASE_NAME,
+  DATABASE_PASSWORD: process.env.DATABASE_PASSWORD,
+  JWT_SECRET: process.env.JWT_SECRET,
+  JWT_EXPIRES_IN: process.env.JWT_EXPIRES_IN,
+  JWT_COOKIE_EXPIRES_IN: process.env.JWT_COOKIE_EXPIRES_IN,
+  SANDBOX_USERNAME: process.env.SANDBOX_USERNAME,
+  SANDBOX_PASSWORD: process.env.SANDBOX_PASSWORD,
+  GMAIL_USERNAME: process.env.GMAIL_USERNAME,
+  GMAIL_PASSWORD: process.env.GMAIL_PASSWORD,
+  FRONTEND_URL: process.env.FRONTEND_URL,
+};
+
+export default config;
